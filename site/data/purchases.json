@@ -249,7 +249,7 @@
       "priceNote": "53,100원(2026-10-12 조사)",
       "option": "실버 · 하단 선반 · 설치비 제외",
       "decision": "confirmed",
-      "status": "cart",
+      "status": "wishlist",
       "sourceDate": "2026-10-13",
       "rank": 9,
       "orderDate": "",
@@ -257,7 +257,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-13T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:37:24.294Z",
       "image": "assets/products/shower-bar.jpg"
     },
     {
@@ -268,10 +268,10 @@
       "brand": "도무스",
       "store": "오늘의집",
       "url": "https://store.ohou.se/goods/1029058",
-      "quantity": 1,
+      "quantity": 2,
       "quantityLabel": "개",
       "unitPrice": 27500,
-      "quotedTotal": 27500,
+      "quotedTotal": 55000,
       "priceNote": "27,500원",
       "option": "실버무광(SS)",
       "decision": "confirmed",
@@ -283,7 +283,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-13T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:35:54.996Z",
       "image": "assets/products/door-handle.jpg"
     },
     {
@@ -353,7 +353,7 @@
       "priceNote": "상품260,000원＋설치55,000원(앞선 조사값)",
       "option": "1200mm × 2 · 조명 제외 · 설치 추가",
       "decision": "confirmed",
-      "status": "pending",
+      "status": "wishlist",
       "sourceDate": "2026-10-12",
       "rank": 13,
       "orderDate": "",
@@ -361,7 +361,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-12T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:37:37.068Z",
       "image": "assets/products/mirror-cabinet.png"
     },
     {
@@ -747,6 +747,48 @@
       "changes": []
     },
     {
+      "id": "5f41c9dd-7482-48a1-b060-aad0b939b60e",
+      "itemId": "mirror-cabinet",
+      "title": "욕실 거울장",
+      "at": "2026-10-20T01:37:37.068Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "pending",
+          "after": "wishlist"
+        }
+      ]
+    },
+    {
+      "id": "e7c939c0-a10c-4c2f-847d-d030a74a1e7b",
+      "itemId": "shower-bar",
+      "title": "RA911 선반형 샤워바",
+      "at": "2026-10-20T01:37:24.294Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "wishlist"
+        }
+      ]
+    },
+    {
+      "id": "052199cb-801c-42ff-98d1-87920b2797df",
+      "itemId": "door-handle",
+      "title": "905SS 문손잡이",
+      "at": "2026-10-20T01:35:54.996Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "quantity",
+          "before": 1,
+          "after": 2
+        }
+      ]
+    },
+    {
       "id": "initial-horn",
       "itemId": "horn",
       "title": "호른 COB 다운라이트",
@@ -976,7 +1018,7 @@
     }
   ],
   "sourceDate": "2026-10-20",
-  "publishedAt": "2026-10-20T01:28:19.260Z",
+  "publishedAt": "2026-10-20T01:38:16.655Z",
   "orderChecks": {
     "ohou": {
       "at": "2026-10-20T01:27:22Z",
