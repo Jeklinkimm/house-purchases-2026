@@ -101,7 +101,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-13T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:27:47.047Z",
       "image": "assets/products/horn.jpg"
     },
     {
@@ -127,7 +127,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-13T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:27:48.972Z",
       "image": "assets/products/living-led.png"
     },
     {
@@ -953,12 +953,42 @@
       "at": "2026-10-08T12:00:00+09:00",
       "initial": true,
       "changes": []
+    },
+    {
+      "id": "check-ohou-2026-10-20T01:27:22Z",
+      "kind": "check",
+      "title": "오늘의집 주문내역 확인",
+      "at": "2026-10-20T01:27:22Z",
+      "initial": false,
+      "changes": [],
+      "result": "현재 구매 목록과 일치하는 주문 없음",
+      "scope": "로그인 계정의 최근 3개월 주문배송목록"
+    },
+    {
+      "id": "check-coupang-2026-10-20T01:27:22Z",
+      "kind": "check",
+      "title": "쿠팡 주문내역 확인",
+      "at": "2026-10-20T01:27:22Z",
+      "initial": false,
+      "changes": [],
+      "result": "현재 구매 목록과 일치하는 주문 없음",
+      "scope": "2026-09-17 이후 주문목록 1~3페이지 및 LED 검색"
     }
   ],
   "sourceDate": "2026-10-20",
-  "publishedAt": "2026-10-20T01:18:48.239Z",
+  "publishedAt": "2026-10-20T01:28:19.260Z",
   "orderChecks": {
-    "ohou": null,
-    "coupang": null
+    "ohou": {
+      "at": "2026-10-20T01:27:22Z",
+      "scope": "로그인 계정의 최근 3개월 주문배송목록",
+      "result": "현재 구매 목록과 일치하는 주문 없음",
+      "matched": 0
+    },
+    "coupang": {
+      "at": "2026-10-20T01:27:22Z",
+      "scope": "2026-09-17 이후 주문목록 1~3페이지 및 LED 검색",
+      "result": "현재 구매 목록과 일치하는 주문 없음",
+      "matched": 0
+    }
   }
 }
