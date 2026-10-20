@@ -15,7 +15,7 @@
       "priceNote": "49,500원",
       "option": "60W · 4000K 주백색(중간 흰빛) · 3개",
       "decision": "confirmed",
-      "status": "pending",
+      "status": "cart",
       "sourceDate": "2026-10-12",
       "rank": 0,
       "orderDate": "",
@@ -23,7 +23,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T06:30:46.685Z",
+      "updatedAt": "2026-10-20T06:48:39.031Z",
       "image": "assets/products/iluon-room.jpg"
     },
     {
@@ -41,7 +41,7 @@
       "priceNote": "149,000원(표시가)",
       "option": "ver.1 · 50W · 4000K 주백색 · 1개",
       "decision": "confirmed",
-      "status": "pending",
+      "status": "cart",
       "sourceDate": "2026-10-12",
       "rank": 1,
       "orderDate": "",
@@ -49,7 +49,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T06:30:48.439Z",
+      "updatedAt": "2026-10-20T06:48:40.779Z",
       "image": "assets/products/ringkle.jpg"
     },
     {
@@ -67,7 +67,7 @@
       "priceNote": "38,000원",
       "option": "유리 펜던트 2개 · LED 볼램프 주백색 각 1개(전구 별도 4,000원×2) · 설치 높이는 현장 조정",
       "decision": "confirmed",
-      "status": "pending",
+      "status": "cart",
       "sourceDate": "2026-10-12",
       "rank": 2,
       "orderDate": "",
@@ -75,7 +75,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T06:30:50.586Z",
+      "updatedAt": "2026-10-20T06:48:42.553Z",
       "image": "assets/products/steed.jpg"
     },
     {
@@ -93,7 +93,7 @@
       "priceNote": "8,200원",
       "option": "일반 확산형 · 3인치(75mm) · 주광색 6개＋전구색 15개(총21개)",
       "decision": "confirmed",
-      "status": "pending",
+      "status": "cart",
       "sourceDate": "2026-10-13",
       "rank": 3,
       "orderDate": "",
@@ -101,7 +101,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T01:55:37.519Z",
+      "updatedAt": "2026-10-20T06:48:44.889Z",
       "image": "assets/products/horn.jpg"
     },
     {
@@ -145,7 +145,7 @@
       "priceNote": "27,900원",
       "option": "20W · 화이트 · 4000K 주백색 · 1개",
       "decision": "confirmed",
-      "status": "pending",
+      "status": "cart",
       "sourceDate": "2026-10-13",
       "rank": 5,
       "orderDate": "",
@@ -153,7 +153,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T06:30:52.436Z",
+      "updatedAt": "2026-10-20T06:48:46.829Z",
       "image": "assets/products/iluon-entry.jpg"
     },
     {
@@ -753,6 +753,76 @@
       "at": "2026-10-20T12:00:00+09:00",
       "initial": true,
       "changes": []
+    },
+    {
+      "id": "c7c7ebbf-d42e-4381-9065-dad7cfd8b4cd",
+      "itemId": "iluon-entry",
+      "title": "일루온 현관등",
+      "at": "2026-10-20T06:48:46.829Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "pending",
+          "after": "cart"
+        }
+      ]
+    },
+    {
+      "id": "2aa1a521-7334-4c1e-81dd-d25c203b815d",
+      "itemId": "horn",
+      "title": "호른 COB 다운라이트",
+      "at": "2026-10-20T06:48:44.889Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "pending",
+          "after": "cart"
+        }
+      ]
+    },
+    {
+      "id": "f8c78c4c-04ad-4a77-aa44-3b0e91119315",
+      "itemId": "steed",
+      "title": "스티드 식탁 펜던트",
+      "at": "2026-10-20T06:48:42.553Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "pending",
+          "after": "cart"
+        }
+      ]
+    },
+    {
+      "id": "a4946070-265e-4bb0-a93d-684ac07e7ce7",
+      "itemId": "ringkle",
+      "title": "링클 안방등",
+      "at": "2026-10-20T06:48:40.779Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "pending",
+          "after": "cart"
+        }
+      ]
+    },
+    {
+      "id": "aef4ce1a-797c-4164-a57c-fbfd5a0a8597",
+      "itemId": "iluon-room",
+      "title": "일루온 방등",
+      "at": "2026-10-20T06:48:39.031Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "pending",
+          "after": "cart"
+        }
+      ]
     },
     {
       "id": "77552763-6234-4546-9b8f-f5379cf34718",
@@ -1362,7 +1432,7 @@
     }
   ],
   "sourceDate": "2026-10-20",
-  "publishedAt": "2026-10-20T06:46:55.248Z",
+  "publishedAt": "2026-10-20T06:50:21.889Z",
   "orderChecks": {
     "ohou": {
       "at": "2026-10-20T01:27:22Z",
