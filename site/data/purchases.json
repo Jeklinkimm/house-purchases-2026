@@ -39,7 +39,7 @@
       "unitPrice": 149000,
       "quotedTotal": 149000,
       "priceNote": "149,000원(표시가)",
-      "option": "ver.1 · 50W · 4000K 주백색 · 1개(모델 유지 우선)",
+      "option": "ver.1 · 60W · 3000K 전구색(노란빛) · 1개",
       "decision": "confirmed",
       "status": "pending",
       "sourceDate": "2026-10-12",
@@ -49,7 +49,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T02:26:46.797Z",
+      "updatedAt": "2026-10-20T06:28:19.338Z",
       "image": "assets/products/ringkle.jpg"
     },
     {
@@ -673,7 +673,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T02:26:48.268Z",
+      "updatedAt": "2026-10-20T02:29:56.481Z",
       "image": "assets/products/sliding-shelf.jpg"
     },
     {
@@ -745,6 +745,20 @@
       "at": "2026-10-20T12:00:00+09:00",
       "initial": true,
       "changes": []
+    },
+    {
+      "id": "8da7721c-dc09-45b6-b6e6-304943c7ff29",
+      "itemId": "ringkle",
+      "title": "링클 안방등",
+      "at": "2026-10-20T06:28:19.338Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "option",
+          "before": "ver.1 · 50W · 4000K 주백색 · 1개(모델 유지 우선)",
+          "after": "ver.1 · 60W · 3000K 전구색(노란빛) · 1개"
+        }
+      ]
     },
     {
       "id": "8ee5662e-a364-45f0-9229-8bf55129b743",
@@ -1235,7 +1249,7 @@
     }
   ],
   "sourceDate": "2026-10-20",
-  "publishedAt": "2026-10-20T02:27:20.144Z",
+  "publishedAt": "2026-10-20T06:28:40.925Z",
   "orderChecks": {
     "ohou": {
       "at": "2026-10-20T01:27:22Z",
