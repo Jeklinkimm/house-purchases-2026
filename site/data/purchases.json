@@ -13,7 +13,7 @@
       "unitPrice": 49500,
       "quotedTotal": 148500,
       "priceNote": "49,500원",
-      "option": "60W · 빛색 최종 결정 전",
+      "option": "60W · 주광색(하얀빛/6000K) · 3개",
       "decision": "confirmed",
       "status": "pending",
       "sourceDate": "2026-10-12",
@@ -23,7 +23,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-12T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:55:33.566Z",
       "image": "assets/products/iluon-room.jpg"
     },
     {
@@ -39,7 +39,7 @@
       "unitPrice": 149000,
       "quotedTotal": 149000,
       "priceNote": "149,000원(표시가)",
-      "option": "ver.1 · 50W/60W·빛색 최종 결정 전",
+      "option": "주광색 희망 · 현 판매 옵션 없음 · 대체/유지 답변 대기",
       "decision": "confirmed",
       "status": "pending",
       "sourceDate": "2026-10-12",
@@ -49,7 +49,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-12T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:55:34.905Z",
       "image": "assets/products/ringkle.jpg"
     },
     {
@@ -65,7 +65,7 @@
       "unitPrice": 38000,
       "quotedTotal": 76000,
       "priceNote": "38,000원",
-      "option": "유리 펜던트 · 전구·설치 높이 미정",
+      "option": "유리 펜던트 2개 · LED 볼램프 주광색 각 1개(전구 별도 4,000원×2) · 설치 높이는 현장 조정",
       "decision": "confirmed",
       "status": "pending",
       "sourceDate": "2026-10-12",
@@ -75,7 +75,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-12T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:55:36.222Z",
       "image": "assets/products/steed.jpg"
     },
     {
@@ -91,9 +91,9 @@
       "unitPrice": 8200,
       "quotedTotal": 172200,
       "priceNote": "8,200원",
-      "option": "일반 확산형 · 3인치(75mm) · 전구색",
+      "option": "일반 확산형 · 3인치(75mm) · 주광색 6개＋전구색 15개(총21개)",
       "decision": "confirmed",
-      "status": "cart",
+      "status": "pending",
       "sourceDate": "2026-10-13",
       "rank": 3,
       "orderDate": "",
@@ -101,7 +101,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T01:27:47.047Z",
+      "updatedAt": "2026-10-20T01:55:37.519Z",
       "image": "assets/products/horn.jpg"
     },
     {
@@ -143,9 +143,9 @@
       "unitPrice": 27900,
       "quotedTotal": 27900,
       "priceNote": "27,900원",
-      "option": "20W · 화이트 · 4000K 주백색",
+      "option": "20W · 화이트 · 주광색 희망(현 판매 단일상품, 기존 4000K 주백색 기록으로 주광색 여부 확인 대기)",
       "decision": "confirmed",
-      "status": "cart",
+      "status": "pending",
       "sourceDate": "2026-10-13",
       "rank": 5,
       "orderDate": "",
@@ -153,7 +153,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-13T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:56:19.358Z",
       "image": "assets/products/iluon-entry.jpg"
     },
     {
@@ -502,12 +502,12 @@
       "brand": "에브리윅",
       "store": "오늘의집",
       "url": "https://store.ohou.se/goods/1492603",
-      "quantity": null,
+      "quantity": 1,
       "quantityLabel": "개",
       "unitPrice": 23780,
-      "quotedTotal": null,
+      "quotedTotal": 23780,
       "priceNote": "23,780원부터(2026-10-12 오늘의집 표시가)",
-      "option": "부착형 · 4가지 크기 중 미정",
+      "option": "부착형 · 1개 · 4가지 크기 중 사이즈 미정",
       "decision": "pending",
       "status": "pending",
       "sourceDate": "2026-10-12",
@@ -517,7 +517,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-12T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:55:25.907Z",
       "image": "assets/products/knife-rack.webp"
     },
     {
@@ -528,12 +528,12 @@
       "brand": "아이메이트",
       "store": "쿠팡",
       "url": "https://www.coupang.com/vp/products/1692713801?itemId=2882047355",
-      "quantity": null,
+      "quantity": 1,
       "quantityLabel": "세트 (8개입)",
       "unitPrice": null,
       "quotedTotal": null,
       "priceNote": "현행 가격 미확인 / 사진5천 원대·과거 쿠팡 색인6,320원 참고",
-      "option": "소형 8개입 · 구매 세트 수 미정",
+      "option": "소형 8개입 · 1세트",
       "decision": "pending",
       "status": "pending",
       "sourceDate": "2026-10-12",
@@ -543,7 +543,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-12T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:55:27.332Z",
       "image": "assets/products/s-hooks.png"
     },
     {
@@ -554,12 +554,12 @@
       "brand": "리비크",
       "store": "오늘의집",
       "url": "https://store.ohou.se/goods/492210",
-      "quantity": null,
+      "quantity": 1,
       "quantityLabel": "개",
       "unitPrice": 89000,
-      "quotedTotal": null,
+      "quotedTotal": 89000,
       "priceNote": "89,000원(2026-10-12 확인한 오늘의집 페이지 표시가)",
-      "option": "LV-S12 · 화이트 12L · 수량 미정",
+      "option": "LV-S12 · 화이트 12L · 1개",
       "decision": "pending",
       "status": "pending",
       "sourceDate": "2026-10-12",
@@ -569,7 +569,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-12T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:55:28.763Z",
       "image": "assets/products/sensor-bin.jpg"
     },
     {
@@ -580,12 +580,12 @@
       "brand": "다이소",
       "store": "다이소몰",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045502",
-      "quantity": null,
+      "quantity": 1,
       "quantityLabel": "개",
       "unitPrice": 3000,
-      "quotedTotal": null,
+      "quotedTotal": 3000,
       "priceNote": "3,000원(사진·외부 상품정보 참고, 공식 현행 가격 미확인)",
-      "option": "45.5cm · 화이트 · 수량 미정",
+      "option": "45.5cm · 화이트 · 1개",
       "decision": "pending",
       "status": "pending",
       "sourceDate": "2026-10-12",
@@ -595,7 +595,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-12T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:55:30.171Z",
       "image": "assets/products/gap-shelf.jpg"
     },
     {
@@ -632,12 +632,12 @@
       "brand": "ZOZOFO",
       "store": "쿠팡",
       "url": "https://www.coupang.com/vp/products/8452985967?itemId=20713734957",
-      "quantity": null,
+      "quantity": 1,
       "quantityLabel": "개",
       "unitPrice": 25900,
-      "quotedTotal": null,
+      "quotedTotal": 25900,
       "priceNote": "25,900원(기존 쿠팡 검색 색인 참고·현행 가격 미확인)",
-      "option": "화이트 4단 · 수량 미정",
+      "option": "화이트 4단 · 1개",
       "decision": "pending",
       "status": "pending",
       "sourceDate": "2026-10-12",
@@ -647,7 +647,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-12T00:00:00+09:00",
+      "updatedAt": "2026-10-20T01:55:31.749Z",
       "image": ""
     },
     {
@@ -745,6 +745,181 @@
       "at": "2026-10-20T12:00:00+09:00",
       "initial": true,
       "changes": []
+    },
+    {
+      "id": "9fefbf6e-2e91-44b5-bfa4-7be24a9167c5",
+      "itemId": "iluon-entry",
+      "title": "일루온 현관등",
+      "at": "2026-10-20T01:56:19.358Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "pending"
+        },
+        {
+          "field": "option",
+          "before": "20W · 화이트 · 4000K 주백색",
+          "after": "20W · 화이트 · 주광색 희망(현 판매 단일상품, 기존 4000K 주백색 기록으로 주광색 여부 확인 대기)"
+        }
+      ]
+    },
+    {
+      "id": "acb67002-2cb1-4cb3-997f-819e4b6ea1e1",
+      "itemId": "horn",
+      "title": "호른 COB 다운라이트",
+      "at": "2026-10-20T01:55:37.519Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "pending"
+        },
+        {
+          "field": "option",
+          "before": "일반 확산형 · 3인치(75mm) · 전구색",
+          "after": "일반 확산형 · 3인치(75mm) · 주광색 6개＋전구색 15개(총21개)"
+        }
+      ]
+    },
+    {
+      "id": "bc267a2b-2585-4137-9ecb-99e275a94266",
+      "itemId": "steed",
+      "title": "스티드 식탁 펜던트",
+      "at": "2026-10-20T01:55:36.222Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "option",
+          "before": "유리 펜던트 · 전구·설치 높이 미정",
+          "after": "유리 펜던트 2개 · LED 볼램프 주광색 각 1개(전구 별도 4,000원×2) · 설치 높이는 현장 조정"
+        }
+      ]
+    },
+    {
+      "id": "744c3a58-4924-4328-af2c-4725895df93c",
+      "itemId": "ringkle",
+      "title": "링클 안방등",
+      "at": "2026-10-20T01:55:34.905Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "option",
+          "before": "ver.1 · 50W/60W·빛색 최종 결정 전",
+          "after": "주광색 희망 · 현 판매 옵션 없음 · 대체/유지 답변 대기"
+        }
+      ]
+    },
+    {
+      "id": "26156287-f21e-4414-9650-b56989215876",
+      "itemId": "iluon-room",
+      "title": "일루온 방등",
+      "at": "2026-10-20T01:55:33.566Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "option",
+          "before": "60W · 빛색 최종 결정 전",
+          "after": "60W · 주광색(하얀빛/6000K) · 3개"
+        }
+      ]
+    },
+    {
+      "id": "24202d1f-7533-4204-a600-8f7712a0132d",
+      "itemId": "slim-drawer",
+      "title": "슬림 틈새 서랍장",
+      "at": "2026-10-20T01:55:31.749Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "quantity",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "option",
+          "before": "화이트 4단 · 수량 미정",
+          "after": "화이트 4단 · 1개"
+        }
+      ]
+    },
+    {
+      "id": "4d1211da-2697-4d94-bb70-5bd8bfdf974e",
+      "itemId": "gap-shelf",
+      "title": "주방 틈새 선반",
+      "at": "2026-10-20T01:55:30.171Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "quantity",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "option",
+          "before": "45.5cm · 화이트 · 수량 미정",
+          "after": "45.5cm · 화이트 · 1개"
+        }
+      ]
+    },
+    {
+      "id": "beb6b3a4-7c3a-41b9-b830-76b1afb1aba3",
+      "itemId": "sensor-bin",
+      "title": "스마트 센서 휴지통",
+      "at": "2026-10-20T01:55:28.763Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "quantity",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "option",
+          "before": "LV-S12 · 화이트 12L · 수량 미정",
+          "after": "LV-S12 · 화이트 12L · 1개"
+        }
+      ]
+    },
+    {
+      "id": "1a90c09c-8b65-4414-a74f-a075bbec17b1",
+      "itemId": "s-hooks",
+      "title": "스테인리스 S자걸이",
+      "at": "2026-10-20T01:55:27.332Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "quantity",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "option",
+          "before": "소형 8개입 · 구매 세트 수 미정",
+          "after": "소형 8개입 · 1세트"
+        }
+      ]
+    },
+    {
+      "id": "1d615acf-e1f6-4239-af6c-9d806204258b",
+      "itemId": "knife-rack",
+      "title": "304 스텐 칼꽂이",
+      "at": "2026-10-20T01:55:25.907Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "quantity",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "option",
+          "before": "부착형 · 4가지 크기 중 미정",
+          "after": "부착형 · 1개 · 4가지 크기 중 사이즈 미정"
+        }
+      ]
     },
     {
       "id": "5f41c9dd-7482-48a1-b060-aad0b939b60e",
@@ -1018,7 +1193,7 @@
     }
   ],
   "sourceDate": "2026-10-20",
-  "publishedAt": "2026-10-20T01:38:16.655Z",
+  "publishedAt": "2026-10-20T01:56:52.028Z",
   "orderChecks": {
     "ohou": {
       "at": "2026-10-20T01:27:22Z",
