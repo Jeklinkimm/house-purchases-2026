@@ -1,0 +1,13 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import path from 'node:path';
+const [input,output='site/data/purchases.json']=process.argv.slice(2);
+if(!input)throw new Error('Usage: node tools/export-public.mjs <private-input.json> [public-output.json]');
+const data=JSON.parse(await readFile(input,'utf8'));
+if(!Array.isArray(data.items)||!Array.isArray(data.history))throw new Error('구매 노트 목록/이력 형식이 아닙니다.');
+const fields=['id','title','label','category','brand','store','url','quantity','quantityLabel','unitPrice','quotedTotal','priceNote','option','decision','status','sourceDate','rank','orderDate','expectedDate','deliveredDate','paidAmount','shippingPaid','updatedAt'];
+const allowedChanges=['status','quantity','option','orderDate','expectedDate','deliveredDate','paidAmount','shippingPaid'];
+const items=data.items.map(p=>{const x=Object.fromEntries(fields.map(k=>[k,p[k]??null]));x.image=p.image?.startsWith('/products/')?'assets'+p.image:'';return x;});
+const history=data.history.map(e=>({id:e.id,itemId:e.itemId,title:e.title,at:e.at,initial:String(e.id).startsWith('initial-'),changes:(e.changes??[]).filter(c=>allowedChanges.includes(c.field)).map(c=>({field:c.field,before:c.before,after:c.after}))})).filter(e=>e.initial||e.changes.length);
+const safe={items,history,sourceDate:data.sourceDate,publishedAt:new Date().toISOString(),orderChecks:data.orderChecks??{ohou:null,coupang:null}};
+await mkdir(path.dirname(output),{recursive:true});await writeFile(output,JSON.stringify(safe,null,2)+'\n');
+console.log(`Public snapshot: ${items.length} items, ${history.length} events`);

@@ -1,0 +1,4 @@
+.private/
+outputs/
+.DS_Store
+*.log
