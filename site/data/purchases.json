@@ -561,7 +561,7 @@
       "priceNote": "89,000원(2026-10-12 확인한 오늘의집 페이지 표시가)",
       "option": "LV-S12 · 화이트 12L · 1개",
       "decision": "pending",
-      "status": "pending",
+      "status": "wishlist",
       "sourceDate": "2026-10-12",
       "rank": 33,
       "orderDate": "",
@@ -569,7 +569,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T01:55:28.763Z",
+      "updatedAt": "2026-10-20T01:59:36.734Z",
       "image": "assets/products/sensor-bin.jpg"
     },
     {
@@ -745,6 +745,20 @@
       "at": "2026-10-20T12:00:00+09:00",
       "initial": true,
       "changes": []
+    },
+    {
+      "id": "52a8e90a-9b72-42d2-941d-487dc320ea9b",
+      "itemId": "sensor-bin",
+      "title": "스마트 센서 휴지통",
+      "at": "2026-10-20T01:59:36.734Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "pending",
+          "after": "wishlist"
+        }
+      ]
     },
     {
       "id": "9fefbf6e-2e91-44b5-bfa4-7be24a9167c5",
@@ -1193,7 +1207,7 @@
     }
   ],
   "sourceDate": "2026-10-20",
-  "publishedAt": "2026-10-20T01:56:52.028Z",
+  "publishedAt": "2026-10-20T01:59:59.102Z",
   "orderChecks": {
     "ohou": {
       "at": "2026-10-20T01:27:22Z",
