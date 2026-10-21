@@ -117,9 +117,9 @@
       "unitPrice": 5310,
       "quotedTotal": 31860,
       "priceNote": "2026-10-20 쿠팡 확인: 개당5,310원 · 6개31,860원 · 와우 무료배송/무료반품(제한사항 제외)",
-      "option": "30W · 주백색 · 안정기 일체형 · 단품6개",
+      "option": "30W / 주백색 / 안정기 일체형 / 필요 수량 6개 (기존 판매처 재고 2개, 대체 구성 확인 필요)",
       "decision": "confirmed",
-      "status": "cart",
+      "status": "pending",
       "sourceDate": "2026-10-20",
       "rank": 4,
       "orderDate": "",
@@ -127,7 +127,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T06:44:20.937Z",
+      "updatedAt": "2026-10-21T05:28:34.775Z",
       "image": "assets/products/living-led.png"
     },
     {
@@ -652,6 +652,25 @@
     }
   ],
   "history": [
+    {
+      "id": "7eb57554-e9df-4705-9b20-22ac2d2974d7",
+      "itemId": "living-led",
+      "title": "원하 라이트 LED 리폼램프 30W",
+      "at": "2026-10-21T05:28:34.775Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "pending"
+        },
+        {
+          "field": "option",
+          "before": "30W · 주백색 · 안정기 일체형 · 단품6개",
+          "after": "30W / 주백색 / 안정기 일체형 / 필요 수량 6개 (기존 판매처 재고 2개, 대체 구성 확인 필요)"
+        }
+      ]
+    },
     {
       "id": "initial-living-led",
       "itemId": "living-led",
@@ -1272,7 +1291,7 @@
     }
   ],
   "sourceDate": "2026-10-21",
-  "publishedAt": "2026-10-21T05:24:36.456Z",
+  "publishedAt": "2026-10-21T05:28:54.605Z",
   "orderChecks": {
     "ohou": null,
     "coupang": null
