@@ -521,32 +521,6 @@
       "image": "assets/products/knife-rack.webp"
     },
     {
-      "id": "s-hooks",
-      "title": "스테인리스 S자걸이",
-      "label": "주방용 스테인리스 S자걸이",
-      "category": "주방·생활",
-      "brand": "아이메이트",
-      "store": "쿠팡",
-      "url": "https://www.coupang.com/vp/products/1692713801?itemId=2882047355",
-      "quantity": 1,
-      "quantityLabel": "세트 (8개입)",
-      "unitPrice": null,
-      "quotedTotal": null,
-      "priceNote": "현행 가격 미확인 / 사진5천 원대·과거 쿠팡 색인6,320원 참고",
-      "option": "소형 8개입 · 1세트",
-      "decision": "pending",
-      "status": "pending",
-      "sourceDate": "2026-10-12",
-      "rank": 32,
-      "orderDate": "",
-      "expectedDate": "",
-      "deliveredDate": "",
-      "paidAmount": null,
-      "shippingPaid": null,
-      "updatedAt": "2026-10-20T01:55:27.332Z",
-      "image": "assets/products/s-hooks.png"
-    },
-    {
       "id": "sensor-bin",
       "title": "스마트 센서 휴지통",
       "label": "스마트 자동 센서 휴지통",
@@ -625,32 +599,6 @@
       "image": "assets/products/door-stopper.webp"
     },
     {
-      "id": "slim-drawer",
-      "title": "슬림 틈새 서랍장",
-      "label": "슬림 틈새 서랍장",
-      "category": "주방·생활",
-      "brand": "ZOZOFO",
-      "store": "쿠팡",
-      "url": "https://www.coupang.com/vp/products/8452985967?itemId=20713734957",
-      "quantity": 1,
-      "quantityLabel": "개",
-      "unitPrice": 25900,
-      "quotedTotal": 25900,
-      "priceNote": "25,900원(기존 쿠팡 검색 색인 참고·현행 가격 미확인)",
-      "option": "화이트 4단 · 1개",
-      "decision": "pending",
-      "status": "pending",
-      "sourceDate": "2026-10-12",
-      "rank": 36,
-      "orderDate": "",
-      "expectedDate": "",
-      "deliveredDate": "",
-      "paidAmount": null,
-      "shippingPaid": null,
-      "updatedAt": "2026-10-20T01:55:31.749Z",
-      "image": ""
-    },
-    {
       "id": "sliding-shelf",
       "title": "슬라이딩 선반 정리대",
       "label": "주방 슬라이딩 선반 정리대",
@@ -701,32 +649,6 @@
       "shippingPaid": null,
       "updatedAt": "2026-10-20T00:00:00+09:00",
       "image": "assets/products/shower-waterstop.jpg"
-    },
-    {
-      "id": "clear-silicone",
-      "title": "욕실용 핸드씰 투명 100ml",
-      "label": "물막이 보완용 실리콘",
-      "category": "욕실",
-      "brand": "오공",
-      "store": "쿠팡",
-      "url": "https://www.coupang.com/vp/products/8642166587?itemId=10139203944&vendorItemId=89832532010",
-      "quantity": null,
-      "quantityLabel": "개",
-      "unitPrice": 3430,
-      "quotedTotal": null,
-      "priceNote": "2026-10-20 단품 1개 3,430원 · 사용자 와우 무료배송 기준.",
-      "option": "투명 · 100ml 튜브 단품 · 수량 미정",
-      "decision": "confirmed",
-      "status": "pending",
-      "sourceDate": "2026-10-20",
-      "rank": 136,
-      "orderDate": "",
-      "expectedDate": "",
-      "deliveredDate": "",
-      "paidAmount": null,
-      "shippingPaid": null,
-      "updatedAt": "2026-10-20T00:00:00+09:00",
-      "image": "assets/products/clear-silicone.jpg"
     }
   ],
   "history": [
@@ -742,14 +664,6 @@
       "id": "initial-shower-waterstop",
       "itemId": "shower-waterstop",
       "title": "2세대 샤워부스 물막이",
-      "at": "2026-10-20T12:00:00+09:00",
-      "initial": true,
-      "changes": []
-    },
-    {
-      "id": "initial-clear-silicone",
-      "itemId": "clear-silicone",
-      "title": "욕실용 핸드씰 투명 100ml",
       "at": "2026-10-20T12:00:00+09:00",
       "initial": true,
       "changes": []
@@ -1074,25 +988,6 @@
       ]
     },
     {
-      "id": "24202d1f-7533-4204-a600-8f7712a0132d",
-      "itemId": "slim-drawer",
-      "title": "슬림 틈새 서랍장",
-      "at": "2026-10-20T01:55:31.749Z",
-      "initial": false,
-      "changes": [
-        {
-          "field": "quantity",
-          "before": null,
-          "after": 1
-        },
-        {
-          "field": "option",
-          "before": "화이트 4단 · 수량 미정",
-          "after": "화이트 4단 · 1개"
-        }
-      ]
-    },
-    {
       "id": "4d1211da-2697-4d94-bb70-5bd8bfdf974e",
       "itemId": "gap-shelf",
       "title": "주방 틈새 선반",
@@ -1127,25 +1022,6 @@
           "field": "option",
           "before": "LV-S12 · 화이트 12L · 수량 미정",
           "after": "LV-S12 · 화이트 12L · 1개"
-        }
-      ]
-    },
-    {
-      "id": "1a90c09c-8b65-4414-a74f-a075bbec17b1",
-      "itemId": "s-hooks",
-      "title": "스테인리스 S자걸이",
-      "at": "2026-10-20T01:55:27.332Z",
-      "initial": false,
-      "changes": [
-        {
-          "field": "quantity",
-          "before": null,
-          "after": 1
-        },
-        {
-          "field": "option",
-          "before": "소형 8개입 · 구매 세트 수 미정",
-          "after": "소형 8개입 · 1세트"
         }
       ]
     },
@@ -1355,14 +1231,6 @@
       "changes": []
     },
     {
-      "id": "initial-s-hooks",
-      "itemId": "s-hooks",
-      "title": "스테인리스 S자걸이",
-      "at": "2026-10-12T12:00:00+09:00",
-      "initial": true,
-      "changes": []
-    },
-    {
       "id": "initial-sensor-bin",
       "itemId": "sensor-bin",
       "title": "스마트 센서 휴지통",
@@ -1387,14 +1255,6 @@
       "changes": []
     },
     {
-      "id": "initial-slim-drawer",
-      "itemId": "slim-drawer",
-      "title": "슬림 틈새 서랍장",
-      "at": "2026-10-12T12:00:00+09:00",
-      "initial": true,
-      "changes": []
-    },
-    {
       "id": "initial-sliding-shelf",
       "itemId": "sliding-shelf",
       "title": "슬라이딩 선반 정리대",
@@ -1409,42 +1269,12 @@
       "at": "2026-10-08T12:00:00+09:00",
       "initial": true,
       "changes": []
-    },
-    {
-      "id": "check-ohou-2026-10-20T01:27:22Z",
-      "kind": "check",
-      "title": "오늘의집 주문내역 확인",
-      "at": "2026-10-20T01:27:22Z",
-      "initial": false,
-      "changes": [],
-      "result": "현재 구매 목록과 일치하는 주문 없음",
-      "scope": "로그인 계정의 최근 3개월 주문배송목록"
-    },
-    {
-      "id": "check-coupang-2026-10-20T01:27:22Z",
-      "kind": "check",
-      "title": "쿠팡 주문내역 확인",
-      "at": "2026-10-20T01:27:22Z",
-      "initial": false,
-      "changes": [],
-      "result": "현재 구매 목록과 일치하는 주문 없음",
-      "scope": "2026-09-17 이후 주문목록 1~3페이지 및 LED 검색"
     }
   ],
-  "sourceDate": "2026-10-20",
-  "publishedAt": "2026-10-20T06:50:21.889Z",
+  "sourceDate": "2026-10-21",
+  "publishedAt": "2026-10-21T05:24:36.456Z",
   "orderChecks": {
-    "ohou": {
-      "at": "2026-10-20T01:27:22Z",
-      "scope": "로그인 계정의 최근 3개월 주문배송목록",
-      "result": "현재 구매 목록과 일치하는 주문 없음",
-      "matched": 0
-    },
-    "coupang": {
-      "at": "2026-10-20T01:27:22Z",
-      "scope": "2026-09-17 이후 주문목록 1~3페이지 및 LED 검색",
-      "result": "현재 구매 목록과 일치하는 주문 없음",
-      "matched": 0
-    }
+    "ohou": null,
+    "coupang": null
   }
 }
