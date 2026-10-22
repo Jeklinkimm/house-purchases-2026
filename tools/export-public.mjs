@@ -9,10 +9,11 @@ const allowedChanges=['status','quantity','option','orderDate','expectedDate','d
 // 2026-10-21: Only the living-room LED is a Coupang purchase target.
 const visibleItems=data.items.filter(p=>p.store!=='쿠팡'||p.id==='living-led');
 const visibleIds=new Set(visibleItems.map(p=>p.id));
-const items=visibleItems.map(p=>{const x=Object.fromEntries(fields.map(k=>[k,p[k]??null]));x.image=p.image?.startsWith('/products/')?'assets'+p.image:'';return x;});
+const items=visibleItems.map(p=>{const x=Object.fromEntries(fields.map(k=>[k,p[k]??null]));x.image=p.image?.startsWith('/products/')?'assets'+p.image:/^https:\/\/(?:prs\.ohousecdn\.com|image\.ohousecdn\.com)\//.test(p.image??'')?p.image:'';return x;});
 const history=data.history.filter(e=>visibleIds.has(e.itemId)).map(e=>({id:e.id,itemId:e.itemId,title:e.title,at:e.at,initial:String(e.id).startsWith('initial-'),changes:(e.changes??[]).filter(c=>allowedChanges.includes(c.field)).map(c=>({field:c.field,before:c.before,after:c.after}))})).filter(e=>e.initial||e.changes.length);
 const orderChecks=Object.fromEntries(['ohou','coupang'].map(k=>{const c=data.orderChecks?.[k];return [k,c?{at:c.at,scope:c.scope,result:c.result,matched:Number(c.matched)}:null]}));
 const checkEvents=Object.entries(orderChecks).filter(([,c])=>c).map(([store,c])=>({id:'check-'+store+'-'+c.at,kind:'check',title:(store==='ohou'?'오늘의집':'쿠팡')+' 주문내역 확인',at:c.at,initial:false,changes:[],result:c.result,scope:c.scope}));
-const safe={items,history:[...history,...checkEvents],sourceDate:data.sourceDate,publishedAt:new Date().toISOString(),orderChecks};
+const purchaseSummary=data.purchaseSummary?Object.fromEntries(['date','chargedAmount','refundAmount','netAmount','refundState','activeLines','cancelledLines'].map(k=>[k,data.purchaseSummary[k]??null])):null;
+const safe={purchaseSummary,items,history:[...history,...checkEvents],sourceDate:data.sourceDate,publishedAt:new Date().toISOString(),orderChecks};
 await mkdir(path.dirname(output),{recursive:true});await writeFile(output,JSON.stringify(safe,null,2)+'\n');
 console.log(`Public snapshot: ${items.length} items, ${safe.history.length} events`);

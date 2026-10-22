@@ -1,29 +1,38 @@
 {
+  "purchaseSummary": {
+    "date": "2026-10-22",
+    "chargedAmount": 1033764,
+    "refundAmount": 173671,
+    "netAmount": 860093,
+    "refundState": "환불 예정액 포함, 실제 입금 미확인",
+    "activeLines": 15,
+    "cancelledLines": 4
+  },
   "items": [
     {
       "id": "iluon-room",
       "title": "일루온 방등",
-      "label": "방등 3개",
+      "label": "방등 4개",
       "category": "조명",
       "brand": "데코빔",
       "store": "오늘의집",
       "url": "https://store.ohou.se/goods/3749629",
-      "quantity": 3,
+      "quantity": 4,
       "quantityLabel": "개",
       "unitPrice": 49500,
-      "quotedTotal": 148500,
+      "quotedTotal": 198000,
       "priceNote": "49,500원",
-      "option": "60W · 4000K 주백색(중간 흰빛) · 3개",
+      "option": "60W / 주백색(아이보리) 4000K / 4개",
       "decision": "confirmed",
-      "status": "cart",
-      "sourceDate": "2026-10-12",
+      "status": "shipping",
+      "sourceDate": "2026-10-22",
       "rank": 0,
-      "orderDate": "",
-      "expectedDate": "",
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
       "deliveredDate": "",
       "paidAmount": null,
-      "shippingPaid": null,
-      "updatedAt": "2026-10-20T06:48:39.031Z",
+      "shippingPaid": 0,
+      "updatedAt": "2026-10-22T06:27:26.523Z",
       "image": "assets/products/iluon-room.jpg"
     },
     {
@@ -40,8 +49,8 @@
       "quotedTotal": 149000,
       "priceNote": "149,000원(표시가)",
       "option": "ver.1 · 50W · 4000K 주백색 · 1개",
-      "decision": "confirmed",
-      "status": "cart",
+      "decision": "pending",
+      "status": "wishlist",
       "sourceDate": "2026-10-12",
       "rank": 1,
       "orderDate": "",
@@ -49,7 +58,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T06:48:40.779Z",
+      "updatedAt": "2026-10-22T06:27:50.000Z",
       "image": "assets/products/ringkle.jpg"
     },
     {
@@ -67,41 +76,41 @@
       "priceNote": "38,000원",
       "option": "유리 펜던트 2개 · LED 볼램프 주백색 각 1개(전구 별도 4,000원×2) · 설치 높이는 현장 조정",
       "decision": "confirmed",
-      "status": "cart",
+      "status": "cancelled",
       "sourceDate": "2026-10-12",
       "rank": 2,
-      "orderDate": "",
+      "orderDate": "2026-10-22",
       "expectedDate": "",
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T06:48:42.553Z",
+      "updatedAt": "2026-10-22T06:27:45.987Z",
       "image": "assets/products/steed.jpg"
     },
     {
       "id": "horn",
       "title": "호른 COB 다운라이트",
-      "label": "다운라이트 — 욕실·복도 포함 전체 모델 통일",
+      "label": "기존형 호른 주광색 6개",
       "category": "조명",
       "brand": "히트조명",
       "store": "오늘의집",
       "url": "https://store.ohou.se/goods/3382661",
-      "quantity": 21,
+      "quantity": 6,
       "quantityLabel": "개",
       "unitPrice": 8200,
-      "quotedTotal": 172200,
+      "quotedTotal": 49200,
       "priceNote": "8,200원",
-      "option": "일반 확산형 · 3인치(75mm) · 주광색 6개＋전구색 15개(총21개)",
+      "option": "일반 확산형 / 75mm(3인치) / 주광색(하얀빛) / 6개",
       "decision": "confirmed",
-      "status": "cart",
-      "sourceDate": "2026-10-13",
+      "status": "shipping",
+      "sourceDate": "2026-10-22",
       "rank": 3,
-      "orderDate": "",
-      "expectedDate": "",
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
       "deliveredDate": "",
       "paidAmount": null,
-      "shippingPaid": null,
-      "updatedAt": "2026-10-20T06:48:44.889Z",
+      "shippingPaid": 0,
+      "updatedAt": "2026-10-22T06:27:28.651Z",
       "image": "assets/products/horn.jpg"
     },
     {
@@ -171,15 +180,15 @@
       "priceNote": "6,000원",
       "option": "2등용 후렌치 · 50cm · 블랙 BK",
       "decision": "confirmed",
-      "status": "cart",
+      "status": "cancelled",
       "sourceDate": "2026-10-13",
       "rank": 6,
-      "orderDate": "",
+      "orderDate": "2026-10-22",
       "expectedDate": "",
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-13T00:00:00+09:00",
+      "updatedAt": "2026-10-22T06:27:47.844Z",
       "image": "assets/products/black-base.jpg"
     },
     {
@@ -221,17 +230,17 @@
       "unitPrice": 159000,
       "quotedTotal": 318000,
       "priceNote": "159,000원(이전 조사)",
-      "option": "HMF-J300 · 직접 설치 / 제품만",
+      "option": "티오람 미니 HMF-J300 / 직접 설치 / 2개",
       "decision": "confirmed",
-      "status": "cart",
+      "status": "shipping",
       "sourceDate": "2026-10-13",
       "rank": 8,
-      "orderDate": "",
-      "expectedDate": "",
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
       "deliveredDate": "",
       "paidAmount": null,
-      "shippingPaid": null,
-      "updatedAt": "2026-10-13T00:00:00+09:00",
+      "shippingPaid": 0,
+      "updatedAt": "2026-10-22T06:27:32.666Z",
       "image": "assets/products/tiolam.jpg"
     },
     {
@@ -325,17 +334,17 @@
       "unitPrice": 13900,
       "quotedTotal": 27800,
       "priceNote": "13,900원",
-      "option": "드레인덮개 150×150",
+      "option": "드레인덮개 150x150 / 2개",
       "decision": "confirmed",
-      "status": "cart",
+      "status": "shipping",
       "sourceDate": "2026-10-13",
       "rank": 12,
-      "orderDate": "",
-      "expectedDate": "",
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
       "deliveredDate": "",
       "paidAmount": null,
-      "shippingPaid": null,
-      "updatedAt": "2026-10-13T00:00:00+09:00",
+      "shippingPaid": 0,
+      "updatedAt": "2026-10-22T06:27:30.780Z",
       "image": "assets/products/drain-cover.jpg"
     },
     {
@@ -378,8 +387,8 @@
       "quotedTotal": 87000,
       "priceNote": "2026-10-13 장바구니 확인가 · 배송 별도",
       "option": "1구 · 그레이 판 / 실버 레버",
-      "decision": "confirmed",
-      "status": "cart",
+      "decision": "pending",
+      "status": "wishlist",
       "sourceDate": "2026-10-13",
       "rank": 14,
       "orderDate": "",
@@ -387,7 +396,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-13T00:00:00+09:00",
+      "updatedAt": "2026-10-22T06:27:51.711Z",
       "image": "assets/products/switch-1.jpg"
     },
     {
@@ -404,8 +413,8 @@
       "quotedTotal": 55500,
       "priceNote": "2026-10-13 장바구니 확인가 · 배송 별도",
       "option": "2구 · 그레이 판 / 실버 레버",
-      "decision": "confirmed",
-      "status": "cart",
+      "decision": "pending",
+      "status": "wishlist",
       "sourceDate": "2026-10-13",
       "rank": 15,
       "orderDate": "",
@@ -413,7 +422,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-13T00:00:00+09:00",
+      "updatedAt": "2026-10-22T06:27:53.400Z",
       "image": "assets/products/switch-2.jpg"
     },
     {
@@ -430,8 +439,8 @@
       "quotedTotal": 23500,
       "priceNote": "2026-10-13 장바구니 확인가 · 배송 별도",
       "option": "3구 · 그레이 판 / 실버 레버",
-      "decision": "confirmed",
-      "status": "cart",
+      "decision": "pending",
+      "status": "wishlist",
       "sourceDate": "2026-10-13",
       "rank": 16,
       "orderDate": "",
@@ -439,7 +448,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-13T00:00:00+09:00",
+      "updatedAt": "2026-10-22T06:27:55.241Z",
       "image": "assets/products/switch-3.jpg"
     },
     {
@@ -456,8 +465,8 @@
       "quotedTotal": 36500,
       "priceNote": "2026-10-13 장바구니 확인가 · 배송 별도",
       "option": "6구 · 그레이 판 / 실버 레버",
-      "decision": "confirmed",
-      "status": "cart",
+      "decision": "pending",
+      "status": "wishlist",
       "sourceDate": "2026-10-13",
       "rank": 17,
       "orderDate": "",
@@ -465,7 +474,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-13T00:00:00+09:00",
+      "updatedAt": "2026-10-22T06:27:57.316Z",
       "image": "assets/products/switch-6.jpg"
     },
     {
@@ -649,9 +658,1028 @@
       "shippingPaid": null,
       "updatedAt": "2026-10-20T00:00:00+09:00",
       "image": "assets/products/shower-waterstop.jpg"
+    },
+    {
+      "id": "horn-slim-neutral",
+      "title": "호른 슬림 플러스 다운라이트",
+      "label": "호른 슬림 플러스 다운라이트",
+      "category": "조명",
+      "brand": "히트조명",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/4184943",
+      "quantity": 14,
+      "quantityLabel": "개",
+      "unitPrice": 8800,
+      "quotedTotal": 123200,
+      "priceNote": "8,800원, 주문 공통 할인 전 참고 단가",
+      "option": "확산형 / 3인치 / 주백색 / 화이트",
+      "decision": "confirmed",
+      "status": "shipping",
+      "sourceDate": "2026-10-22",
+      "rank": 30,
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
+      "deliveredDate": "",
+      "paidAmount": 104720,
+      "shippingPaid": 0,
+      "updatedAt": "2026-10-22T06:31:36.299Z",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-534271138144256.jpg?w=256&h=256&c=c"
+    },
+    {
+      "id": "choice-neutral",
+      "title": "초이스 COB 다운라이트",
+      "label": "초이스 COB 다운라이트",
+      "category": "조명",
+      "brand": "히트조명",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/1306096",
+      "quantity": 1,
+      "quantityLabel": "개",
+      "unitPrice": 6000,
+      "quotedTotal": 6000,
+      "priceNote": "6,000원, 주문 공통 할인 전 참고 단가",
+      "option": "8cm / 화이트 / 주백색(아이보리)",
+      "decision": "confirmed",
+      "status": "shipping",
+      "sourceDate": "2026-10-22",
+      "rank": 31,
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
+      "deliveredDate": "",
+      "paidAmount": 5100,
+      "shippingPaid": 0,
+      "updatedAt": "2026-10-22T06:31:38.760Z",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-341032778559552.jpg?w=256&h=256&c=c"
+    },
+    {
+      "id": "stro-pendant",
+      "title": "스트로 LED 펜던트",
+      "label": "스트로 LED 펜던트",
+      "category": "조명",
+      "brand": "공간조명",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/1864199",
+      "quantity": 1,
+      "quantityLabel": "개",
+      "unitPrice": 78000,
+      "quotedTotal": 78000,
+      "priceNote": "78,000원, 주문 공통 할인 전 참고 단가",
+      "option": "50W / 4000K / 화이트",
+      "decision": "confirmed",
+      "status": "ordered",
+      "sourceDate": "2026-10-22",
+      "rank": 32,
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
+      "deliveredDate": "",
+      "paidAmount": 66300,
+      "shippingPaid": 0,
+      "updatedAt": "2026-10-22T06:31:40.697Z",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-499206970318848.png?w=256&h=256&c=c"
+    },
+    {
+      "id": "paint-moon-white",
+      "title": "헤이레이 벽면 페인트",
+      "label": "헤이레이 벽면 페인트",
+      "category": "주방·생활",
+      "brand": "헤이레이",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/3084528",
+      "quantity": 1,
+      "quantityLabel": "개",
+      "unitPrice": 29000,
+      "quotedTotal": 29000,
+      "priceNote": "29,000원, 주문 공통 할인 전 참고 단가",
+      "option": "1L / 플랫 무광 / Moon White (HR0005)",
+      "decision": "confirmed",
+      "status": "shipping",
+      "sourceDate": "2026-10-22",
+      "rank": 33,
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": 0,
+      "updatedAt": "2026-10-22T06:31:42.698Z",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-522238969946240.jpg?w=256&h=256&c=c"
+    },
+    {
+      "id": "paint-tool-set",
+      "title": "페인트 벽지벽면용 간편세트",
+      "label": "페인트 벽지벽면용 간편세트",
+      "category": "주방·생활",
+      "brand": "헤이레이",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/3084528",
+      "quantity": 1,
+      "quantityLabel": "개",
+      "unitPrice": 12500,
+      "quotedTotal": 12500,
+      "priceNote": "12,500원, 주문 공통 할인 전 참고 단가",
+      "option": "추가상품 / 벽지벽면용 간편세트",
+      "decision": "confirmed",
+      "status": "shipping",
+      "sourceDate": "2026-10-22",
+      "rank": 34,
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": 0,
+      "updatedAt": "2026-10-22T06:31:44.940Z",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-522238969946240.jpg?w=256&h=256&c=c"
+    },
+    {
+      "id": "bono-1",
+      "title": "베코 보노 스위치 1구",
+      "label": "베코 보노 스위치 1구",
+      "category": "스위치",
+      "brand": "히트조명",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/4153225",
+      "quantity": 6,
+      "quantityLabel": "개",
+      "unitPrice": 6200,
+      "quotedTotal": 37200,
+      "priceNote": "6,200원, 주문 공통 할인 전 참고 단가",
+      "option": "화이트 / 1구",
+      "decision": "confirmed",
+      "status": "shipping",
+      "sourceDate": "2026-10-22",
+      "rank": 35,
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": 0,
+      "updatedAt": "2026-10-22T06:31:47.076Z",
+      "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/openapi/4376444/1784092550278.jpg?w=256&h=256&c=c"
+    },
+    {
+      "id": "bono-2",
+      "title": "베코 보노 스위치 2구",
+      "label": "베코 보노 스위치 2구",
+      "category": "스위치",
+      "brand": "히트조명",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/4153225",
+      "quantity": 4,
+      "quantityLabel": "개",
+      "unitPrice": 8900,
+      "quotedTotal": 35600,
+      "priceNote": "8,900원, 주문 공통 할인 전 참고 단가",
+      "option": "화이트 / 2구",
+      "decision": "confirmed",
+      "status": "shipping",
+      "sourceDate": "2026-10-22",
+      "rank": 36,
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": 0,
+      "updatedAt": "2026-10-22T06:31:49.116Z",
+      "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/openapi/4376444/1784092550278.jpg?w=256&h=256&c=c"
+    },
+    {
+      "id": "bono-6",
+      "title": "베코 보노 스위치 중6구",
+      "label": "베코 보노 스위치 중6구",
+      "category": "스위치",
+      "brand": "히트조명",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/4153225",
+      "quantity": 1,
+      "quantityLabel": "개",
+      "unitPrice": 25200,
+      "quotedTotal": 25200,
+      "priceNote": "25,200원, 주문 공통 할인 전 참고 단가",
+      "option": "화이트 / 중6구",
+      "decision": "confirmed",
+      "status": "shipping",
+      "sourceDate": "2026-10-22",
+      "rank": 37,
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": 0,
+      "updatedAt": "2026-10-22T06:31:50.979Z",
+      "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/openapi/4376444/1784092550278.jpg?w=256&h=256&c=c"
+    },
+    {
+      "id": "shower-head",
+      "title": "스테인레스 샤워헤드 DML-003",
+      "label": "스테인레스 샤워헤드 DML-003",
+      "category": "욕실",
+      "brand": "듀라맥스",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/2995516",
+      "quantity": 2,
+      "quantityLabel": "개",
+      "unitPrice": 4500,
+      "quotedTotal": 9000,
+      "priceNote": "4,500원, 주문 공통 할인 전 참고 단가",
+      "option": "샤워기헤드 단품",
+      "decision": "confirmed",
+      "status": "ordered",
+      "sourceDate": "2026-10-22",
+      "rank": 38,
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-27",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": 3000,
+      "updatedAt": "2026-10-22T06:31:52.975Z",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-269198776344704.jpg?w=256&h=256&c=c"
+    },
+    {
+      "id": "magazine-rack",
+      "title": "철제 실버 잡지꽂이",
+      "label": "철제 실버 잡지꽂이",
+      "category": "주방·생활",
+      "brand": "브리스크스타일",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/4152977",
+      "quantity": 1,
+      "quantityLabel": "개",
+      "unitPrice": 7500,
+      "quotedTotal": 7500,
+      "priceNote": "7,500원, 주문 공통 할인 전 참고 단가",
+      "option": "대형",
+      "decision": "confirmed",
+      "status": "shipping",
+      "sourceDate": "2026-10-22",
+      "rank": 39,
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": 3000,
+      "updatedAt": "2026-10-22T06:31:54.764Z",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-522182690058368.jpg?w=256&h=256&c=c"
+    },
+    {
+      "id": "tension-rod",
+      "title": "화이트 분체 압축봉",
+      "label": "화이트 분체 압축봉",
+      "category": "주방·생활",
+      "brand": "할메이드",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/1842007",
+      "quantity": 4,
+      "quantityLabel": "개",
+      "unitPrice": 990,
+      "quotedTotal": 3960,
+      "priceNote": "990원, 주문 공통 할인 전 참고 단가",
+      "option": "30~50cm / 직경 13mm / 화이트",
+      "decision": "confirmed",
+      "status": "shipping",
+      "sourceDate": "2026-10-22",
+      "rank": 40,
+      "orderDate": "2026-10-22",
+      "expectedDate": "2026-10-23",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": 3000,
+      "updatedAt": "2026-10-22T06:31:56.613Z",
+      "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/167936395642207213.jpg?w=256&h=256&c=c"
+    },
+    {
+      "id": "horn-warm-cancelled",
+      "title": "호른 전구색 다운라이트 취소 기록",
+      "label": "호른 전구색 다운라이트 취소 기록",
+      "category": "조명",
+      "brand": "히트조명",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/3382661",
+      "quantity": 15,
+      "quantityLabel": "개",
+      "unitPrice": 8200,
+      "quotedTotal": 123000,
+      "priceNote": "8,200원, 주문 공통 할인 전 참고 단가",
+      "option": "일반 확산형 / 75mm / 전구색 / 취소완료",
+      "decision": "confirmed",
+      "status": "cancelled",
+      "sourceDate": "2026-10-22",
+      "rank": 41,
+      "orderDate": "2026-10-22",
+      "expectedDate": "",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": null,
+      "updatedAt": "2026-10-22T06:31:58.328Z",
+      "image": "assets/products/horn.jpg"
+    },
+    {
+      "id": "steed-bulbs-cancelled",
+      "title": "스티드 추가 볼램프 취소 기록",
+      "label": "스티드 추가 볼램프 취소 기록",
+      "category": "조명",
+      "brand": "히트조명",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/206897",
+      "quantity": 2,
+      "quantityLabel": "개",
+      "unitPrice": 4000,
+      "quotedTotal": 8000,
+      "priceNote": "4,000원, 주문 공통 할인 전 참고 단가",
+      "option": "LED 볼램프 / 주백색 / 취소완료",
+      "decision": "confirmed",
+      "status": "cancelled",
+      "sourceDate": "2026-10-22",
+      "rank": 42,
+      "orderDate": "2026-10-22",
+      "expectedDate": "",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": null,
+      "updatedAt": "2026-10-22T06:32:00.522Z",
+      "image": "assets/products/steed.jpg"
     }
   ],
   "history": [
+    {
+      "id": "initial-iluon-room",
+      "itemId": "iluon-room",
+      "title": "일루온 방등",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-horn",
+      "itemId": "horn",
+      "title": "호른 COB 다운라이트",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-horn-slim-neutral",
+      "itemId": "horn-slim-neutral",
+      "title": "호른 슬림 플러스 다운라이트",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-choice-neutral",
+      "itemId": "choice-neutral",
+      "title": "초이스 COB 다운라이트",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-stro-pendant",
+      "itemId": "stro-pendant",
+      "title": "스트로 LED 펜던트",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-paint-moon-white",
+      "itemId": "paint-moon-white",
+      "title": "헤이레이 벽면 페인트",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-paint-tool-set",
+      "itemId": "paint-tool-set",
+      "title": "페인트 벽지벽면용 간편세트",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-bono-1",
+      "itemId": "bono-1",
+      "title": "베코 보노 스위치 1구",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-bono-2",
+      "itemId": "bono-2",
+      "title": "베코 보노 스위치 2구",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-bono-6",
+      "itemId": "bono-6",
+      "title": "베코 보노 스위치 중6구",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-shower-head",
+      "itemId": "shower-head",
+      "title": "스테인레스 샤워헤드 DML-003",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-magazine-rack",
+      "itemId": "magazine-rack",
+      "title": "철제 실버 잡지꽂이",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-tension-rod",
+      "itemId": "tension-rod",
+      "title": "화이트 분체 압축봉",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-horn-warm-cancelled",
+      "itemId": "horn-warm-cancelled",
+      "title": "호른 전구색 다운라이트 취소 기록",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-steed-bulbs-cancelled",
+      "itemId": "steed-bulbs-cancelled",
+      "title": "스티드 추가 볼램프 취소 기록",
+      "at": "2026-10-22T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "d291a268-322d-408c-80d6-8661eabdb5cc",
+      "itemId": "steed-bulbs-cancelled",
+      "title": "스티드 추가 볼램프 취소 기록",
+      "at": "2026-10-22T06:32:00.522Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "5b9ad808-7022-4a1d-a90d-1bffe725af3e",
+      "itemId": "horn-warm-cancelled",
+      "title": "호른 전구색 다운라이트 취소 기록",
+      "at": "2026-10-22T06:31:58.328Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "1dd733ad-2baa-48a5-9494-e11b61217423",
+      "itemId": "tension-rod",
+      "title": "화이트 분체 압축봉",
+      "at": "2026-10-22T06:31:56.613Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 3000
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "3cb15288-8f43-4ed6-be7c-8ea91af22d51",
+      "itemId": "magazine-rack",
+      "title": "철제 실버 잡지꽂이",
+      "at": "2026-10-22T06:31:54.764Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 3000
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "4fad2fe8-e84c-4ce2-bcb1-ef6155e99c00",
+      "itemId": "shower-head",
+      "title": "스테인레스 샤워헤드 DML-003",
+      "at": "2026-10-22T06:31:52.975Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 3000
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "1ad41016-6608-42cd-9074-cd2e165a4c0f",
+      "itemId": "bono-6",
+      "title": "베코 보노 스위치 중6구",
+      "at": "2026-10-22T06:31:50.979Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 0
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "6829443d-0cb5-4437-8611-3ccfebbe661d",
+      "itemId": "bono-2",
+      "title": "베코 보노 스위치 2구",
+      "at": "2026-10-22T06:31:49.116Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 0
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "ec30785a-8987-4c4c-87e3-b575da2c5fd5",
+      "itemId": "bono-1",
+      "title": "베코 보노 스위치 1구",
+      "at": "2026-10-22T06:31:47.076Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 0
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "87d95d06-70a9-4d34-827c-fb7c24d1377b",
+      "itemId": "paint-tool-set",
+      "title": "페인트 벽지벽면용 간편세트",
+      "at": "2026-10-22T06:31:44.940Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 0
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "f46bcf28-36d7-4149-8c4a-94633260d2da",
+      "itemId": "paint-moon-white",
+      "title": "헤이레이 벽면 페인트",
+      "at": "2026-10-22T06:31:42.698Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 0
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "173a4ac0-cc2f-45a4-b0ce-e97dff537cd5",
+      "itemId": "stro-pendant",
+      "title": "스트로 LED 펜던트",
+      "at": "2026-10-22T06:31:40.697Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "paidAmount",
+          "before": null,
+          "after": 66300
+        },
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 0
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "19641383-2a7b-4817-93cf-d440595e0a65",
+      "itemId": "choice-neutral",
+      "title": "초이스 COB 다운라이트",
+      "at": "2026-10-22T06:31:38.760Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "paidAmount",
+          "before": null,
+          "after": 5100
+        },
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 0
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "f27069a7-0181-4472-8a99-5d3f9db425c2",
+      "itemId": "horn-slim-neutral",
+      "title": "호른 슬림 플러스 다운라이트",
+      "at": "2026-10-22T06:31:36.299Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "paidAmount",
+          "before": null,
+          "after": 104720
+        },
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 0
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "816c5178-d1c2-4285-b5a3-2ec4eeca8014",
+      "itemId": "switch-6",
+      "title": "ATS 레트로 토글 6구",
+      "at": "2026-10-22T06:27:57.316Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "wishlist"
+        }
+      ]
+    },
+    {
+      "id": "371c433b-0db7-4432-83e7-b0842642efac",
+      "itemId": "switch-3",
+      "title": "ATS 레트로 토글 3구",
+      "at": "2026-10-22T06:27:55.241Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "wishlist"
+        }
+      ]
+    },
+    {
+      "id": "43c46c85-80ca-4834-82fa-66f1ae99a3df",
+      "itemId": "switch-2",
+      "title": "ATS 레트로 토글 2구",
+      "at": "2026-10-22T06:27:53.400Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "wishlist"
+        }
+      ]
+    },
+    {
+      "id": "e8d4b177-0d44-4608-adf9-a50d0e484265",
+      "itemId": "switch-1",
+      "title": "ATS 레트로 토글 1구",
+      "at": "2026-10-22T06:27:51.711Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "wishlist"
+        }
+      ]
+    },
+    {
+      "id": "5494c60a-9c93-41d2-9bc6-898aa4e35668",
+      "itemId": "ringkle",
+      "title": "링클 안방등",
+      "at": "2026-10-22T06:27:50.000Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "wishlist"
+        }
+      ]
+    },
+    {
+      "id": "8b1efd21-b683-4dfb-a8cc-06dd618bd02f",
+      "itemId": "black-base",
+      "title": "식탁등 공용 블랙 베이스",
+      "at": "2026-10-22T06:27:47.844Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "cancelled"
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "9f6cd35a-6498-4cfa-bec4-43093728dae4",
+      "itemId": "steed",
+      "title": "스티드 식탁 펜던트",
+      "at": "2026-10-22T06:27:45.987Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "cancelled"
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "14ca0cb5-3185-45ba-9d47-5d9106f287e4",
+      "itemId": "tiolam",
+      "title": "티오람 미니",
+      "at": "2026-10-22T06:27:32.666Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "shipping"
+        },
+        {
+          "field": "option",
+          "before": "HMF-J300 · 직접 설치 / 제품만",
+          "after": "티오람 미니 HMF-J300 / 직접 설치 / 2개"
+        },
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 0
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "601b3d31-2a92-45c5-a908-3d5c96008bd5",
+      "itemId": "drain-cover",
+      "title": "타일 배수구 덮개",
+      "at": "2026-10-22T06:27:30.780Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "shipping"
+        },
+        {
+          "field": "option",
+          "before": "드레인덮개 150×150",
+          "after": "드레인덮개 150x150 / 2개"
+        },
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 0
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "3b5ba036-6817-4e0e-8e15-2c57aa4dbbef",
+      "itemId": "horn",
+      "title": "호른 COB 다운라이트",
+      "at": "2026-10-22T06:27:28.651Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "shipping"
+        },
+        {
+          "field": "quantity",
+          "before": 21,
+          "after": 6
+        },
+        {
+          "field": "option",
+          "before": "일반 확산형 · 3인치(75mm) · 주광색 6개＋전구색 15개(총21개)",
+          "after": "일반 확산형 / 75mm(3인치) / 주광색(하얀빛) / 6개"
+        },
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 0
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "25bca164-0655-48c1-bbd1-6c5428538377",
+      "itemId": "iluon-room",
+      "title": "일루온 방등",
+      "at": "2026-10-22T06:27:26.523Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "shipping"
+        },
+        {
+          "field": "quantity",
+          "before": 3,
+          "after": 4
+        },
+        {
+          "field": "option",
+          "before": "60W · 4000K 주백색(중간 흰빛) · 3개",
+          "after": "60W / 주백색(아이보리) 4000K / 4개"
+        },
+        {
+          "field": "shippingPaid",
+          "before": null,
+          "after": 0
+        },
+        {
+          "field": "orderDate",
+          "before": "",
+          "after": "2026-10-22"
+        },
+        {
+          "field": "expectedDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
     {
       "id": "7eb57554-e9df-4705-9b20-22ac2d2974d7",
       "itemId": "living-led",
@@ -1106,14 +2134,6 @@
       ]
     },
     {
-      "id": "initial-horn",
-      "itemId": "horn",
-      "title": "호른 COB 다운라이트",
-      "at": "2026-10-13T12:00:00+09:00",
-      "initial": true,
-      "changes": []
-    },
-    {
       "id": "initial-iluon-entry",
       "itemId": "iluon-entry",
       "title": "일루온 현관등",
@@ -1202,14 +2222,6 @@
       "changes": []
     },
     {
-      "id": "initial-iluon-room",
-      "itemId": "iluon-room",
-      "title": "일루온 방등",
-      "at": "2026-10-12T12:00:00+09:00",
-      "initial": true,
-      "changes": []
-    },
-    {
       "id": "initial-ringkle",
       "itemId": "ringkle",
       "title": "링클 안방등",
@@ -1288,12 +2300,27 @@
       "at": "2026-10-08T12:00:00+09:00",
       "initial": true,
       "changes": []
+    },
+    {
+      "id": "check-ohou-2026-10-22T06:26:35Z",
+      "kind": "check",
+      "title": "오늘의집 주문내역 확인",
+      "at": "2026-10-22T06:26:35Z",
+      "initial": false,
+      "changes": [],
+      "result": "배송 중 13개 항목, 배송 준비 2개 항목, 취소 4개 항목 확인. 대부분 10월 23일 이내, 샤워헤드는 10월 27일 이내 도착 예정.",
+      "scope": "2026년 10월 22일 주문 4건과 각 취소 상세"
     }
   ],
-  "sourceDate": "2026-10-21",
-  "publishedAt": "2026-10-21T05:28:54.605Z",
+  "sourceDate": "2026-10-22",
+  "publishedAt": "2026-10-22T06:32:35.502Z",
   "orderChecks": {
-    "ohou": null,
+    "ohou": {
+      "at": "2026-10-22T06:26:35Z",
+      "scope": "2026년 10월 22일 주문 4건과 각 취소 상세",
+      "result": "배송 중 13개 항목, 배송 준비 2개 항목, 취소 4개 항목 확인. 대부분 10월 23일 이내, 샤워헤드는 10월 27일 이내 도착 예정.",
+      "matched": 15
+    },
     "coupang": null
   }
 }
