@@ -1,7 +1,8 @@
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[\u00b7\u318d\u2027]/g,', ').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),money=n=>n==null?'금액 확인 필요':new Intl.NumberFormat('ko-KR').format(n)+'원';
 const labels={cart:'미주문, 장바구니',pending:'결정 필요',wishlist:'위시리스트',ordered:'주문 완료',shipping:'배송 중',delivered:'배송 완료',installed:'설치 완료',cancelled:'구매 취소',returned:'반품 완료'};
 const fieldLabels={status:'구매 상태',quantity:'수량',option:'선택 옵션',orderDate:'주문일',expectedDate:'배송예정일',deliveredDate:'실제 도착일',paidAmount:'상품 결제금액',shippingPaid:'별도 배송비'};
-const isActive=p=>!['wishlist','cancelled','returned'].includes(p.status);
+const needsOrderCheck=p=>p.status==='pending'&&p.option?.startsWith('주문 여부 미확인');
+const isActive=p=>!['wishlist','cancelled','returned'].includes(p.status)&&!needsOrderCheck(p);
 const estimate=p=>p.paidAmount??(p.quantity!=null&&p.unitPrice!=null?p.quantity*p.unitPrice:null);
 const cats=['전체','조명','욕실','스위치','주방·생활','가구'];
 const short=d=>d?new Date(d.length===10?d+'T12:00:00+09:00':d).toLocaleDateString('ko-KR',{month:'long',day:'numeric',timeZone:'Asia/Seoul'}):'미등록';
@@ -9,11 +10,11 @@ const full=d=>d?new Date(d).toLocaleString('ko-KR',{timeZone:'Asia/Seoul',year:'
 const today=()=>new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Seoul'});
 let data=null,filter='todo',category='전체',view='list',query='',sort='curated',month=0;
 const group=p=>['ordered','shipping','delivered','installed'].includes(p.status);
-const isTodo=p=>['cart','pending'].includes(p.status);
+const isTodo=p=>['cart','pending'].includes(p.status)&&!needsOrderCheck(p);
 const awaiting=p=>['ordered','shipping'].includes(p.status);
 const received=p=>['delivered','installed'].includes(p.status);
 const value=(k,v)=>v==null||v===''?'미등록':k==='status'?labels[v]:['paidAmount','shippingPaid'].includes(k)?money(v):esc(v);
-const badge=p=>`<span class="badge ${esc(p.status)}">${labels[p.status]||'확인 필요'}</span>`;
+const badge=p=>`<span class="badge ${esc(p.status)}">${needsOrderCheck(p)?'주문 여부 미확인':labels[p.status]||'확인 필요'}</span>`;
 const photo=p=>p.image?`<img src="${esc(p.image)}" alt="${esc(p.title)} 대표 사진" loading="lazy">`:`<span class="fallback"><b>⌂</b><span>제품 사진 확인 필요</span></span>`;
 const unit=p=>p.quantityLabel?.startsWith('묶음')?'묶음':p.quantityLabel?.startsWith('세트')?'세트':'개';
 function card(p){return `<article class="product"><button class="photo" data-item="${esc(p.id)}" aria-label="${esc(p.title)} 상세">${photo(p)}${badge(p)}</button><div class="content"><div class="kicker"><span>${esc(p.category)}, ${esc(p.brand)}</span><span>${esc(p.store)}</span></div><button class="title" data-item="${esc(p.id)}">${esc(p.title)}</button><p class="option">${esc(p.option)}</p><div class="price"><strong>${money(p.unitPrice)}</strong><span>${p.quantity==null?'수량 미정':p.quantity+' '+unit(p)}</span></div><div class="total"><span>${p.paidAmount!=null?'실제 상품 결제':group(p)?'상품 참고 합계':'예상 합계'}</span><b>${p.paidAmount!=null?money(p.paidAmount):p.quotedTotal!=null?money(p.quotedTotal):'—'}</b></div>${p.deliveredDate?`<div class="delivery-label">✓ ${short(p.deliveredDate)} 실제 도착</div>`:p.expectedDate?`<div class="delivery-label">↳ ${short(p.expectedDate)} 도착 예정</div>`:''}<div class="card-link">${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">구매 링크 ↗</a>`:'<span>정확한 모델 미확인</span>'}<button data-item="${esc(p.id)}">기록 보기 ›</button></div></div></article>`;}
