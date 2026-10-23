@@ -1,4 +1,5 @@
 {
+  "verificationNotice": "오늘의집 주문내역은 재로그인이 필요해 10월 23일 최신 배송 상태를 확인하지 못했어요. 주문 및 배송은 10월 22일 확인 기록을 유지합니다. 도착 예정일이 지났어도 배송 완료로 추정하지 않았어요. 미주문 장바구니는 현재 표시된 화면과 대조했으며, 새 주문 여부는 로그인 후 확인이 필요합니다.",
   "purchaseSummary": {
     "date": "2026-10-22",
     "chargedAmount": 1033764,
@@ -126,7 +127,7 @@
       "unitPrice": 5310,
       "quotedTotal": 31860,
       "priceNote": "2026-10-20 쿠팡 확인: 개당5,310원 · 6개31,860원 · 와우 무료배송/무료반품(제한사항 제외)",
-      "option": "30W / 주백색 / 안정기 일체형 / 필요 수량 6개 (기존 판매처 재고 2개, 대체 구성 확인 필요)",
+      "option": "30W / 주백색 / 안정기 일체형 / 총6개 필요, 현재 재고와 구매 구성 재확인",
       "decision": "confirmed",
       "status": "pending",
       "sourceDate": "2026-10-20",
@@ -136,7 +137,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-21T05:28:34.775Z",
+      "updatedAt": "2026-10-23T10:12:59.894Z",
       "image": "assets/products/living-led.png"
     },
     {
@@ -154,7 +155,7 @@
       "priceNote": "27,900원",
       "option": "20W · 화이트 · 4000K 주백색 · 1개",
       "decision": "confirmed",
-      "status": "cart",
+      "status": "pending",
       "sourceDate": "2026-10-13",
       "rank": 5,
       "orderDate": "",
@@ -162,7 +163,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T06:48:46.829Z",
+      "updatedAt": "2026-10-23T10:10:28.052Z",
       "image": "assets/products/iluon-entry.jpg"
     },
     {
@@ -292,7 +293,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-20T01:35:54.996Z",
+      "updatedAt": "2026-10-23T10:10:20.087Z",
       "image": "assets/products/door-handle.jpg"
     },
     {
@@ -318,7 +319,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-13T00:00:00+09:00",
+      "updatedAt": "2026-10-23T10:10:25.285Z",
       "image": "assets/products/paper-holder.jpg"
     },
     {
@@ -996,9 +997,241 @@
       "shippingPaid": null,
       "updatedAt": "2026-10-22T06:32:00.522Z",
       "image": "assets/products/steed.jpg"
+    },
+    {
+      "id": "toilet-cover",
+      "title": "C6285 무소음 변기커버",
+      "label": "변기커버 1개",
+      "category": "욕실",
+      "brand": "아메리칸스탠다드",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/596665",
+      "quantity": 1,
+      "quantityLabel": "개",
+      "unitPrice": 20500,
+      "quotedTotal": 20500,
+      "priceNote": "20,500원, 무료배송. 실제 주문 금액 아님.",
+      "option": "C6285 / 무소음 슬로우 / 1개 / D자형 추정, 호환 확인 필요",
+      "decision": "pending",
+      "status": "cart",
+      "sourceDate": "2026-10-23",
+      "rank": 29,
+      "orderDate": "",
+      "expectedDate": "",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": null,
+      "updatedAt": "2026-10-23T00:00:00+09:00",
+      "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/160697495180051276.jpg?w=640"
+    },
+    {
+      "id": "pinocchio-rail",
+      "title": "피노키오 설치형 옷봉",
+      "label": "옷봉 규격과 수량 결정",
+      "category": "주방·생활",
+      "brand": "철물코리아 판매처 후보",
+      "store": "철물코리아",
+      "url": "https://metal-corea.com/product/detail.html?product_no=3628",
+      "quantity": null,
+      "quantityLabel": "개",
+      "unitPrice": 9900,
+      "quotedTotal": null,
+      "priceNote": "10월 20일 참고 9,900원에 배송2,500원. 현행 재확인 필요.",
+      "option": "원형 스텐 25파이 / 길이조절 77~140cm / 수량 미정",
+      "decision": "pending",
+      "status": "pending",
+      "sourceDate": "2026-10-23",
+      "rank": 46,
+      "orderDate": "",
+      "expectedDate": "",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": null,
+      "updatedAt": "2026-10-23T00:00:00+09:00",
+      "image": ""
+    },
+    {
+      "id": "amy-living",
+      "title": "리샘 에이미 거실 수납장",
+      "label": "거실용 후보",
+      "category": "가구",
+      "brand": "리샘",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/3188798",
+      "quantity": 1,
+      "quantityLabel": "개",
+      "unitPrice": 169000,
+      "quotedTotal": 169000,
+      "priceNote": "1200 본체 참고가169,000원. 선반1단219,000원, 2단269,000원, 3단299,000원. 10월21일 기준, 구성 미정.",
+      "option": "거실용 1개 후보 / 1200 화이트 검토 / 선반 단수 미정",
+      "decision": "pending",
+      "status": "wishlist",
+      "sourceDate": "2026-10-23",
+      "rank": 47,
+      "orderDate": "",
+      "expectedDate": "",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": null,
+      "updatedAt": "2026-10-23T00:00:00+09:00",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/images/v1-353074801225728.jpg?w=640"
+    },
+    {
+      "id": "tori-wide",
+      "title": "토리 1200 와이드 3단 서랍장",
+      "label": "침실 서랍장 비교 후보",
+      "category": "가구",
+      "brand": "가구의정석",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/3550577",
+      "quantity": 2,
+      "quantityLabel": "개",
+      "unitPrice": 149000,
+      "quotedTotal": 298000,
+      "priceNote": "현재 표시된 장바구니 2개298,000원, 쿠폰 표시288,000원, 무료배송. 결제 전 변동 가능.",
+      "option": "1200 / 3단 / 화이트 / 장바구니 2개, 구매 확정 전",
+      "decision": "pending",
+      "status": "wishlist",
+      "sourceDate": "2026-10-23",
+      "rank": 48,
+      "orderDate": "",
+      "expectedDate": "",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": null,
+      "updatedAt": "2026-10-23T00:00:00+09:00",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-398451974422592.jpg?w=640"
+    },
+    {
+      "id": "tori-tall",
+      "title": "토리 1000 5단 서랍장",
+      "label": "침실 서랍장 비교 후보",
+      "category": "가구",
+      "brand": "가구의정석",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/3550577",
+      "quantity": 1,
+      "quantityLabel": "개",
+      "unitPrice": 179000,
+      "quotedTotal": 179000,
+      "priceNote": "현재 표시된 장바구니 179,000원, 쿠폰 표시169,000원, 무료배송. 결제 전 변동 가능.",
+      "option": "1000 / 5단 / 화이트 / 장바구니 1개, 구매 확정 전",
+      "decision": "pending",
+      "status": "wishlist",
+      "sourceDate": "2026-10-23",
+      "rank": 49,
+      "orderDate": "",
+      "expectedDate": "",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": null,
+      "updatedAt": "2026-10-23T00:00:00+09:00",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-398451974422592.jpg?w=640"
+    },
+    {
+      "id": "hev-wide",
+      "title": "가이온 헤브 1200 3단 서랍장",
+      "label": "서랍장 대안 후보",
+      "category": "가구",
+      "brand": "가이온",
+      "store": "오늘의집",
+      "url": "https://store.ohou.se/goods/4208948",
+      "quantity": 1,
+      "quantityLabel": "개",
+      "unitPrice": 121000,
+      "quotedTotal": 121000,
+      "priceNote": "현재 표시된 장바구니121,000원, 쿠폰114,950원에 착불배송25,000원. 결제 전 변동 가능.",
+      "option": "1200 / 3단 / 화이트 / 장바구니 1개, 비교 후보",
+      "decision": "pending",
+      "status": "wishlist",
+      "sourceDate": "2026-10-23",
+      "rank": 50,
+      "orderDate": "",
+      "expectedDate": "",
+      "deliveredDate": "",
+      "paidAmount": null,
+      "shippingPaid": null,
+      "updatedAt": "2026-10-23T00:00:00+09:00",
+      "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/openapi/4651743/1788252334373.jpg?w=640"
     }
   ],
   "history": [
+    {
+      "id": "initial-toilet-cover",
+      "itemId": "toilet-cover",
+      "title": "C6285 무소음 변기커버",
+      "at": "2026-10-23T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-pinocchio-rail",
+      "itemId": "pinocchio-rail",
+      "title": "피노키오 설치형 옷봉",
+      "at": "2026-10-23T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-amy-living",
+      "itemId": "amy-living",
+      "title": "리샘 에이미 거실 수납장",
+      "at": "2026-10-23T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-tori-wide",
+      "itemId": "tori-wide",
+      "title": "토리 1200 와이드 3단 서랍장",
+      "at": "2026-10-23T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-tori-tall",
+      "itemId": "tori-tall",
+      "title": "토리 1000 5단 서랍장",
+      "at": "2026-10-23T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "initial-hev-wide",
+      "itemId": "hev-wide",
+      "title": "가이온 헤브 1200 3단 서랍장",
+      "at": "2026-10-23T12:00:00+09:00",
+      "initial": true,
+      "changes": []
+    },
+    {
+      "id": "dbf198c7-0cfb-4384-9d91-c99e30ad134f",
+      "itemId": "living-led",
+      "title": "원하 라이트 LED 리폼램프 30W",
+      "at": "2026-10-23T10:12:59.894Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "option",
+          "before": "30W / 주백색 / 안정기 일체형 / 필요 수량 6개 (기존 판매처 재고 2개, 대체 구성 확인 필요)",
+          "after": "30W / 주백색 / 안정기 일체형 / 총6개 필요, 현재 재고와 구매 구성 재확인"
+        }
+      ]
+    },
+    {
+      "id": "7a5cc7e9-120f-452e-9cbd-375a1b8259d2",
+      "itemId": "iluon-entry",
+      "title": "일루온 현관등",
+      "at": "2026-10-23T10:10:28.052Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "cart",
+          "after": "pending"
+        }
+      ]
+    },
     {
       "id": "initial-iluon-room",
       "itemId": "iluon-room",
@@ -2310,10 +2543,20 @@
       "changes": [],
       "result": "배송 중 13개 항목, 배송 준비 2개 항목, 취소 4개 항목 확인. 대부분 10월 23일 이내, 샤워헤드는 10월 27일 이내 도착 예정.",
       "scope": "2026년 10월 22일 주문 4건과 각 취소 상세"
+    },
+    {
+      "id": "check-coupang-2026-10-23T10:10:30Z",
+      "kind": "check",
+      "title": "쿠팡 주문내역 확인",
+      "at": "2026-10-23T10:10:30Z",
+      "initial": false,
+      "changes": [],
+      "result": "현재 계정에서 거실 리폼 LED와 일치하는 주문을 확인하지 못함. 쿠팡 비LED 품목은 구매 목록 제외 유지.",
+      "scope": "현재 로그인 계정 최근 주문 목록과 주문상품 리폼 검색"
     }
   ],
-  "sourceDate": "2026-10-22",
-  "publishedAt": "2026-10-22T06:32:35.502Z",
+  "sourceDate": "2026-10-23",
+  "publishedAt": "2026-10-23T10:13:01.625Z",
   "orderChecks": {
     "ohou": {
       "at": "2026-10-22T06:26:35Z",
@@ -2321,6 +2564,11 @@
       "result": "배송 중 13개 항목, 배송 준비 2개 항목, 취소 4개 항목 확인. 대부분 10월 23일 이내, 샤워헤드는 10월 27일 이내 도착 예정.",
       "matched": 15
     },
-    "coupang": null
+    "coupang": {
+      "at": "2026-10-23T10:10:30Z",
+      "scope": "현재 로그인 계정 최근 주문 목록과 주문상품 리폼 검색",
+      "result": "현재 계정에서 거실 리폼 LED와 일치하는 주문을 확인하지 못함. 쿠팡 비LED 품목은 구매 목록 제외 유지.",
+      "matched": 0
+    }
   }
 }

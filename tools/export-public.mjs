@@ -14,6 +14,6 @@ const history=data.history.filter(e=>visibleIds.has(e.itemId)).map(e=>({id:e.id,
 const orderChecks=Object.fromEntries(['ohou','coupang'].map(k=>{const c=data.orderChecks?.[k];return [k,c?{at:c.at,scope:c.scope,result:c.result,matched:Number(c.matched)}:null]}));
 const checkEvents=Object.entries(orderChecks).filter(([,c])=>c).map(([store,c])=>({id:'check-'+store+'-'+c.at,kind:'check',title:(store==='ohou'?'오늘의집':'쿠팡')+' 주문내역 확인',at:c.at,initial:false,changes:[],result:c.result,scope:c.scope}));
 const purchaseSummary=data.purchaseSummary?Object.fromEntries(['date','chargedAmount','refundAmount','netAmount','refundState','activeLines','cancelledLines'].map(k=>[k,data.purchaseSummary[k]??null])):null;
-const safe={purchaseSummary,items,history:[...history,...checkEvents],sourceDate:data.sourceDate,publishedAt:new Date().toISOString(),orderChecks};
+const safe={verificationNotice:data.verificationNotice??null,purchaseSummary,items,history:[...history,...checkEvents],sourceDate:data.sourceDate,publishedAt:new Date().toISOString(),orderChecks};
 await mkdir(path.dirname(output),{recursive:true});await writeFile(output,JSON.stringify(safe,null,2)+'\n');
 console.log(`Public snapshot: ${items.length} items, ${safe.history.length} events`);
