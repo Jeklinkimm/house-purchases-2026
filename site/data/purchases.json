@@ -1,5 +1,5 @@
 {
-  "verificationNotice": "오늘의집 주문내역은 재로그인이 필요해 10월 23일 최신 배송 상태를 확인하지 못했어요. 주문 및 배송은 10월 22일 확인 기록을 유지합니다. 도착 예정일이 지났어도 배송 완료로 추정하지 않았어요. 미주문 장바구니는 현재 표시된 화면과 대조했으며, 새 주문 여부는 로그인 후 확인이 필요합니다.",
+  "verificationNotice": null,
   "purchaseSummary": {
     "date": "2026-10-22",
     "chargedAmount": 1033764,
@@ -163,7 +163,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-23T10:10:28.052Z",
+      "updatedAt": "2026-10-23T10:30:01.356Z",
       "image": "assets/products/iluon-entry.jpg"
     },
     {
@@ -233,15 +233,15 @@
       "priceNote": "159,000원(이전 조사)",
       "option": "티오람 미니 HMF-J300 / 직접 설치 / 2개",
       "decision": "confirmed",
-      "status": "shipping",
+      "status": "delivered",
       "sourceDate": "2026-10-13",
       "rank": 8,
       "orderDate": "2026-10-22",
       "expectedDate": "2026-10-23",
-      "deliveredDate": "",
+      "deliveredDate": "2026-10-23",
       "paidAmount": null,
       "shippingPaid": 0,
-      "updatedAt": "2026-10-22T06:27:32.666Z",
+      "updatedAt": "2026-10-23T10:28:03.060Z",
       "image": "assets/products/tiolam.jpg"
     },
     {
@@ -293,7 +293,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-23T10:10:20.087Z",
+      "updatedAt": "2026-10-23T10:29:54.706Z",
       "image": "assets/products/door-handle.jpg"
     },
     {
@@ -319,7 +319,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-23T10:10:25.285Z",
+      "updatedAt": "2026-10-23T10:29:56.799Z",
       "image": "assets/products/paper-holder.jpg"
     },
     {
@@ -337,15 +337,15 @@
       "priceNote": "13,900원",
       "option": "드레인덮개 150x150 / 2개",
       "decision": "confirmed",
-      "status": "shipping",
+      "status": "delivered",
       "sourceDate": "2026-10-13",
       "rank": 12,
       "orderDate": "2026-10-22",
       "expectedDate": "2026-10-23",
-      "deliveredDate": "",
+      "deliveredDate": "2026-10-23",
       "paidAmount": null,
       "shippingPaid": 0,
-      "updatedAt": "2026-10-22T06:27:30.780Z",
+      "updatedAt": "2026-10-23T10:27:50.407Z",
       "image": "assets/products/drain-cover.jpg"
     },
     {
@@ -727,15 +727,15 @@
       "priceNote": "78,000원, 주문 공통 할인 전 참고 단가",
       "option": "50W / 4000K / 화이트",
       "decision": "confirmed",
-      "status": "ordered",
+      "status": "delivered",
       "sourceDate": "2026-10-22",
       "rank": 32,
       "orderDate": "2026-10-22",
       "expectedDate": "2026-10-23",
-      "deliveredDate": "",
+      "deliveredDate": "2026-10-23",
       "paidAmount": 66300,
       "shippingPaid": 0,
-      "updatedAt": "2026-10-22T06:31:40.697Z",
+      "updatedAt": "2026-10-23T10:27:48.142Z",
       "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-499206970318848.png?w=256&h=256&c=c"
     },
     {
@@ -753,15 +753,15 @@
       "priceNote": "29,000원, 주문 공통 할인 전 참고 단가",
       "option": "1L / 플랫 무광 / Moon White (HR0005)",
       "decision": "confirmed",
-      "status": "shipping",
+      "status": "delivered",
       "sourceDate": "2026-10-22",
       "rank": 33,
       "orderDate": "2026-10-22",
       "expectedDate": "2026-10-23",
-      "deliveredDate": "",
+      "deliveredDate": "2026-10-23",
       "paidAmount": null,
       "shippingPaid": 0,
-      "updatedAt": "2026-10-22T06:31:42.698Z",
+      "updatedAt": "2026-10-23T10:27:54.620Z",
       "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-522238969946240.jpg?w=256&h=256&c=c"
     },
     {
@@ -779,15 +779,15 @@
       "priceNote": "12,500원, 주문 공통 할인 전 참고 단가",
       "option": "추가상품 / 벽지벽면용 간편세트",
       "decision": "confirmed",
-      "status": "shipping",
+      "status": "delivered",
       "sourceDate": "2026-10-22",
       "rank": 34,
       "orderDate": "2026-10-22",
       "expectedDate": "2026-10-23",
-      "deliveredDate": "",
+      "deliveredDate": "2026-10-23",
       "paidAmount": null,
       "shippingPaid": 0,
-      "updatedAt": "2026-10-22T06:31:44.940Z",
+      "updatedAt": "2026-10-23T10:27:52.729Z",
       "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-522238969946240.jpg?w=256&h=256&c=c"
     },
     {
@@ -883,15 +883,15 @@
       "priceNote": "4,500원, 주문 공통 할인 전 참고 단가",
       "option": "샤워기헤드 단품",
       "decision": "confirmed",
-      "status": "ordered",
+      "status": "delivered",
       "sourceDate": "2026-10-22",
       "rank": 38,
       "orderDate": "2026-10-22",
       "expectedDate": "2026-10-27",
-      "deliveredDate": "",
+      "deliveredDate": "2026-10-23",
       "paidAmount": null,
       "shippingPaid": 3000,
-      "updatedAt": "2026-10-22T06:31:52.975Z",
+      "updatedAt": "2026-10-23T10:27:56.435Z",
       "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-269198776344704.jpg?w=256&h=256&c=c"
     },
     {
@@ -909,15 +909,15 @@
       "priceNote": "7,500원, 주문 공통 할인 전 참고 단가",
       "option": "대형",
       "decision": "confirmed",
-      "status": "shipping",
+      "status": "delivered",
       "sourceDate": "2026-10-22",
       "rank": 39,
       "orderDate": "2026-10-22",
       "expectedDate": "2026-10-23",
-      "deliveredDate": "",
+      "deliveredDate": "2026-10-23",
       "paidAmount": null,
       "shippingPaid": 3000,
-      "updatedAt": "2026-10-22T06:31:54.764Z",
+      "updatedAt": "2026-10-23T10:27:58.726Z",
       "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-522182690058368.jpg?w=256&h=256&c=c"
     },
     {
@@ -935,15 +935,15 @@
       "priceNote": "990원, 주문 공통 할인 전 참고 단가",
       "option": "30~50cm / 직경 13mm / 화이트",
       "decision": "confirmed",
-      "status": "shipping",
+      "status": "delivered",
       "sourceDate": "2026-10-22",
       "rank": 40,
       "orderDate": "2026-10-22",
       "expectedDate": "2026-10-23",
-      "deliveredDate": "",
+      "deliveredDate": "2026-10-23",
       "paidAmount": null,
       "shippingPaid": 3000,
-      "updatedAt": "2026-10-22T06:31:56.613Z",
+      "updatedAt": "2026-10-23T10:28:00.912Z",
       "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/167936395642207213.jpg?w=256&h=256&c=c"
     },
     {
@@ -1021,7 +1021,7 @@
       "deliveredDate": "",
       "paidAmount": null,
       "shippingPaid": null,
-      "updatedAt": "2026-10-23T00:00:00+09:00",
+      "updatedAt": "2026-10-23T10:29:59.466Z",
       "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/160697495180051276.jpg?w=640"
     },
     {
@@ -1203,6 +1203,158 @@
       "at": "2026-10-23T12:00:00+09:00",
       "initial": true,
       "changes": []
+    },
+    {
+      "id": "4f524912-6032-4e04-b6c2-36fe813cc50a",
+      "itemId": "tiolam",
+      "title": "티오람 미니",
+      "at": "2026-10-23T10:28:03.060Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "shipping",
+          "after": "delivered"
+        },
+        {
+          "field": "deliveredDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "5725a15f-aa84-40a8-8ca5-fbc7530b61fd",
+      "itemId": "tension-rod",
+      "title": "화이트 분체 압축봉",
+      "at": "2026-10-23T10:28:00.912Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "shipping",
+          "after": "delivered"
+        },
+        {
+          "field": "deliveredDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "458b33ac-4280-45cc-8a18-1418a9818c94",
+      "itemId": "magazine-rack",
+      "title": "철제 실버 잡지꽂이",
+      "at": "2026-10-23T10:27:58.726Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "shipping",
+          "after": "delivered"
+        },
+        {
+          "field": "deliveredDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "86742d52-b468-47f7-9f0a-afcd5135a7b3",
+      "itemId": "shower-head",
+      "title": "스테인레스 샤워헤드 DML-003",
+      "at": "2026-10-23T10:27:56.435Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "ordered",
+          "after": "delivered"
+        },
+        {
+          "field": "deliveredDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "f857d088-5cf9-4e39-a18b-dd770c75edd6",
+      "itemId": "paint-moon-white",
+      "title": "헤이레이 벽면 페인트",
+      "at": "2026-10-23T10:27:54.620Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "shipping",
+          "after": "delivered"
+        },
+        {
+          "field": "deliveredDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "15997eec-487c-4a49-a925-984578777e95",
+      "itemId": "paint-tool-set",
+      "title": "페인트 벽지벽면용 간편세트",
+      "at": "2026-10-23T10:27:52.729Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "shipping",
+          "after": "delivered"
+        },
+        {
+          "field": "deliveredDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "1cf1914c-f3b5-4b10-b6d6-bc32da67fbf4",
+      "itemId": "drain-cover",
+      "title": "타일 배수구 덮개",
+      "at": "2026-10-23T10:27:50.407Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "shipping",
+          "after": "delivered"
+        },
+        {
+          "field": "deliveredDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "f15a012b-71d0-45d2-b4f3-83cbda33f0e5",
+      "itemId": "stro-pendant",
+      "title": "스트로 LED 펜던트",
+      "at": "2026-10-23T10:27:48.142Z",
+      "initial": false,
+      "changes": [
+        {
+          "field": "status",
+          "before": "ordered",
+          "after": "delivered"
+        },
+        {
+          "field": "deliveredDate",
+          "before": "",
+          "after": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "dbf198c7-0cfb-4384-9d91-c99e30ad134f",
@@ -2535,14 +2687,14 @@
       "changes": []
     },
     {
-      "id": "check-ohou-2026-10-22T06:26:35Z",
+      "id": "check-ohou-2026-10-23T10:27:25Z",
       "kind": "check",
       "title": "오늘의집 주문내역 확인",
-      "at": "2026-10-22T06:26:35Z",
+      "at": "2026-10-23T10:27:25Z",
       "initial": false,
       "changes": [],
-      "result": "배송 중 13개 항목, 배송 준비 2개 항목, 취소 4개 항목 확인. 대부분 10월 23일 이내, 샤워헤드는 10월 27일 이내 도착 예정.",
-      "scope": "2026년 10월 22일 주문 4건과 각 취소 상세"
+      "result": "배송완료 8개 항목(모두 10월23일 도착), 배송중 7개 항목, 취소 4개 항목 확인. 새 주문 없음. 남은 장바구니는 별도 대조.",
+      "scope": "로그인된 최근3개월 주문목록 전체와 펼친 10월22일 주문4건 상품 상태, 10월23일 새 주문 없음 확인"
     },
     {
       "id": "check-coupang-2026-10-23T10:10:30Z",
@@ -2556,12 +2708,12 @@
     }
   ],
   "sourceDate": "2026-10-23",
-  "publishedAt": "2026-10-23T10:13:01.625Z",
+  "publishedAt": "2026-10-23T10:30:02.475Z",
   "orderChecks": {
     "ohou": {
-      "at": "2026-10-22T06:26:35Z",
-      "scope": "2026년 10월 22일 주문 4건과 각 취소 상세",
-      "result": "배송 중 13개 항목, 배송 준비 2개 항목, 취소 4개 항목 확인. 대부분 10월 23일 이내, 샤워헤드는 10월 27일 이내 도착 예정.",
+      "at": "2026-10-23T10:27:25Z",
+      "scope": "로그인된 최근3개월 주문목록 전체와 펼친 10월22일 주문4건 상품 상태, 10월23일 새 주문 없음 확인",
+      "result": "배송완료 8개 항목(모두 10월23일 도착), 배송중 7개 항목, 취소 4개 항목 확인. 새 주문 없음. 남은 장바구니는 별도 대조.",
       "matched": 15
     },
     "coupang": {
